@@ -5,7 +5,7 @@ const LoadingComponent = (props) => {
 	return (
 		<div className="alert alert-success" role="alert">
 			<h4 className="alert-heading">
-				<i class="fa-solid fa-spinner fa-spin"></i> {title}
+				<i className="fa-solid fa-spinner fa-spin"></i> {title}
 			</h4>
 			<p>{text}</p>
 		</div>
