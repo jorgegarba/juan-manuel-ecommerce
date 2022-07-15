@@ -1,6 +1,7 @@
 import React from 'react';
-import TableProducts from './TableProducts';
+// import TableProducts from './TableProducts';
 import { Link } from 'react-router-dom';
+import TableProductsPagination from './TableProductsPagination';
 
 const PageProducts = () => {
 	return (
@@ -14,7 +15,8 @@ const PageProducts = () => {
 						</button>
 					</Link>
 				</h2>
-				<TableProducts />
+				{/* <TableProducts /> */}
+				<TableProductsPagination />
 			</div>
 		</div>
 	);
